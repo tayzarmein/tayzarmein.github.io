@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maritime Calculator</title>
+<meta name="description" content="Navigation and shipboard calculators for seafarers. Support, privacy policy and downloads.">
+<link rel="icon" href="icon.png">
+<style>
+  :root{
+    --navy:#1A237E; --navy-deep:#0F1755; --gold:#F2DA66; --ice:#A7DDEA;
+    --ink:#1b2130; --muted:#5c6474; --rule:#e4e7ef;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:#F6F7FB; color:var(--ink);
+    font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+  .masthead{
+    background:linear-gradient(155deg,#26318F 0%,var(--navy) 48%,var(--navy-deep) 100%);
+    color:#fff; padding:64px 0 88px; border-bottom:4px solid var(--gold); text-align:center;
+  }
+  .wrap{width:100%; max-width:720px; margin:0 auto; padding:0 24px}
+  .icon{
+    width:96px; height:96px; border-radius:22px; display:block; margin:0 auto 20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.28);
+  }
+  h1{margin:0; font-size:36px; letter-spacing:-.02em; line-height:1.15}
+  .tag{margin:10px 0 0; font-size:17px; color:var(--ice)}
+  main{max-width:720px; margin:-44px auto 0; padding:0 24px 40px}
+  .card{
+    background:#fff; border-radius:16px; padding:28px; box-shadow:0 6px 24px rgba(16,24,88,.10);
+  }
+  .card p{margin:0 0 22px; color:var(--muted)}
+  .links{display:grid; gap:10px}
+  a.row{
+    display:flex; align-items:center; gap:14px; padding:14px 16px; border-radius:12px;
+    border:1px solid var(--rule); color:var(--ink); text-decoration:none; transition:border-color .15s, background .15s;
+  }
+  a.row:hover{border-color:#c9cfe4; background:#FAFBFF}
+  .row .glyph{
+    width:34px; height:34px; border-radius:9px; background:#EEF0FA; color:var(--navy);
+    display:flex; align-items:center; justify-content:center; font-size:16px; flex:none;
+  }
+  .row .text{display:flex; flex-direction:column; gap:1px}
+  .row .title{font-weight:600}
+  .row .sub{font-size:14px; color:var(--muted)}
+  footer{max-width:720px; margin:0 auto; padding:0 24px 56px; text-align:center; color:var(--muted); font-size:14px}
+  footer a{color:var(--navy)}
+  @media (max-width:520px){
+    .masthead{padding:44px 0 76px}
+    h1{font-size:28px}
+    .card{padding:22px}
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <img class="icon" src="icon.png" alt="Maritime Calculator app icon">
+    <h1>Maritime Calculator</h1>
+    <p class="tag">Navigation tools for seafarers</p>
+  </div>
+</header>
+
+<main>
+  <div class="card">
+    <p>
+      A collection of navigation and shipboard calculators for watchkeeping, passage planning
+      and day-to-day deck work. Calculations run on your device, with no account and no
+      tracking.
+    </p>
+
+    <div class="links">
+      <a class="row" href="privacy-policy.html">
+        <span class="glyph">&#128274;</span>
+        <span class="text">
+          <span class="title">Privacy Policy</span>
+          <span class="sub">What the app does with your data</span>
+        </span>
+      </a>
+
+      <a class="row" href="https://t.me/maritime_calculator">
+        <span class="glyph">&#128172;</span>
+        <span class="text">
+          <span class="title">Telegram Support Group</span>
+          <span class="sub">Questions, bug reports and feedback</span>
+        </span>
+      </a>
+
+      <a class="row" href="mailto:tayzarmein@gmail.com?subject=Maritime%20Calculator%20support">
+        <span class="glyph">&#9993;</span>
+        <span class="text">
+          <span class="title">Email the developer</span>
+          <span class="sub">tayzarmein@gmail.com</span>
+        </span>
+      </a>
+
+      <a class="row" href="https://github.com/tayzarmein/maritime-calculator-releases/releases">
+        <span class="glyph">&#11015;</span>
+        <span class="text">
+          <span class="title">Downloads</span>
+          <span class="sub">Android APK and Windows builds</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Win Tayzar Mein &middot; <a href="privacy-policy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
